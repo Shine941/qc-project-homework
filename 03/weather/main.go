@@ -46,8 +46,9 @@ func main() {
 
 	var jsonWeather WeatherInfoJson
 	json.Unmarshal(input, &jsonWeather)
-	log.Printf("Results:%v\n", jsonWeather)
-
+	log.Printf("Results:\n%v\n", jsonWeather)
 	log.Println(jsonWeather.Weatherinfo.City)
-	log.Println(jsonWeather.Weatherinfo.WD) //ioutil.WriteFile("wsk101010100.html",input,0644)
+	log.Println(jsonWeather.Weatherinfo.Temp)
+	log.Println(jsonWeather.Weatherinfo.WD)
+	log.Println(jsonWeather.Weatherinfo.WS)
 }
