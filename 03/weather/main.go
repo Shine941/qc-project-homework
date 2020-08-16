@@ -20,7 +20,6 @@ type WeatherinfoObject struct {
 	WS   string
 	SD   string
 	AP   string
-	Time string
 	Sm   string
 }
 
@@ -47,11 +46,11 @@ func main() {
 	log.Printf("详细结果:\n%v\n", jsonWeather)
 	fmt.Println("大致情况如下")
 	fmt.Println("城市:", jsonWeather.Weatherinfo.City)
-	fmt.Println("时间:", jsonWeather.Weatherinfo.Time)
 	fmt.Println("温度:", jsonWeather.Weatherinfo.Temp)
 	fmt.Println("风向:", jsonWeather.Weatherinfo.WD)
 	fmt.Println("风速:", jsonWeather.Weatherinfo.WS)
 	fmt.Println("空气湿度:", jsonWeather.Weatherinfo.SD)
 	fmt.Println("sm指数:", jsonWeather.Weatherinfo.Sm)
 	fmt.Println("大气压:", jsonWeather.Weatherinfo.WS)
+	log.Printf("详细结果:\n%s\n", string(input))
 }
