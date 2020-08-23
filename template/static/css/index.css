@@ -1,0 +1,59 @@
+.tabl{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+/* 头像位置 */
+#head{
+    border-color: rgb(243, 139, 139);
+    border-style:solid;
+    border-width:5px;
+    border-radius: 50%;
+    float: left;
+}
+/* 图片大小 */
+
+/* 一级标题文字 */
+.h1a{
+   font-size: 40px;
+   color: white;
+}
+/* 二级标题文字 */
+.h2a{
+    font-family: "Bahnschrift" "隶书";
+    color: rgb(255, 112, 112);
+    font-size: 32px;
+}
+.h2b{
+    font-family: "Bahnschrift" "华文行楷";
+    font-size: 33px;
+    color: rgba(64, 64, 255);
+}
+.h2c{
+    color:white;
+    font-size:30px;
+    height: 20px;
+}
+/* 三级标题文字 */
+.h3a{
+    color: tomato;
+}
+/* 左对齐的文字 */
+.left{
+    text-align: left;
+}
+.red{
+    color: tomato;
+}
+.white{
+    color: white;
+}
+.blue2{
+    font-weight: bold;
+    color: rgb(64, 64, 255);
+}
+/* 蓝色背景  */
+.blue{
+    background-color: rgba(109, 148, 255, 0.479);
+}
